@@ -20,12 +20,11 @@ const SignUpForm = () => {
   const resetFormField = () => {
     setFormFields(defaultFormFields);
   };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
 
     if (password !== confirmPassword) {
-      alert("PLease enter the password");
+      alert("Please enter the password");
       return;
     }
 

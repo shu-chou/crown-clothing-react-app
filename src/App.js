@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 
 import Navigation from "./routes/navigation/navigation.component";
 import Authentication from "./routes/authentication/authentication.component";
-
+// TODO: Fix the CSS
 const App = () => {
   return (
     <Routes>
