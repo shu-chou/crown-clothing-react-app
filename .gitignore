@@ -4,13 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
-/public
 
 # testing
 /coverage
 
 # resources
-/resources
+src/resources
 
 # production
 /build
